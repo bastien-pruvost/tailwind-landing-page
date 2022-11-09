@@ -23,7 +23,7 @@
 
 @layer components {
   .wrapper {
-    @apply mx-auto max-w-screen-2xl px-4 lg:px-6;
+    @apply mx-auto max-w-screen-xl px-4 lg:px-6;
   }
 
   .btn-primary {
