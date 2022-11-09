@@ -1,20 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seller | E-Commerce</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vite + TS</title>
-</head>
+  <body class="relative box-border font-poppins">
+    <!------------------------------------>
+    <!-------------- HEADER -------------->
+    <!------------------------------------>
 
-<body>
-  <div id="app">
-    <h1 class='text-3xl font-bold underline bg-gray-800 text-white'>Bonjour à tous</h1>
+    <div class="sticky top-0 left-0 z-10 bg-white">
+      <header class="wrapper flex items-center justify-between py-4 lg:py-6">
+        <h1
+          class="shrink bg-gradient-to-r from-gradient-100 to-gradient-200 bg-clip-text text-4xl font-semibold text-transparent"
+        >
+          Seller.
+        </h1>
 
+        <nav class="hidden items-center justify-between lg:flex">
+          <ul class="flex shrink-0 items-center gap-6 text-neutral-500 xl:gap-12 2xl:gap-16">
+            <li class="transition-colors hover:text-black">
+              <a class="p-2" href="#">Home</a>
+            </li>
+            <li class="transition-colors hover:text-black">
+              <a class="p-2" href="#services">Services</a>
+            </li>
+            <li class="transition-colors hover:text-black">
+              <a class="p-2" href="#about">About us</a>
+            </li>
+            <li class="transition-colors hover:text-black">
+              <a class="p-2" href="#tools">Tools</a>
+            </li>
+            <li class="transition-colors hover:text-black">
+              <a class="p-2" href="#reviews">Reviews</a>
+            </li>
+            <li class="transition-colors hover:text-black">
+              <a class="p-2" href="#faq">FAQ</a>
+            </li>
+          </ul>
+        </nav>
 
-  </div>
-  <script type="module" src="/src/main.ts"></script>
-</body>
+        <div class="hidden items-center justify-end gap-3 lg:flex">
+          <a href="#" class="btn-secondary shrink-0">Login</a>
+          <a href="#" class="btn-primary shrink-0">Create account</a>
+        </div>
 
+        <i
+          class="fa-solid fa-bars bg-gradient-to-r from-gradient-100 to-gradient-200 bg-clip-text p-2 text-3xl font-bold text-transparent lg:hidden"
+        ></i>
+      </header>
+    </div>
+
+    <!------------------------------------>
+    <!--------------- MAIN --------------->
+    <!------------------------------------>
+
+    <main>
+      <!---------- Home Section ---------->
+      <section class="wrapper mb-20">
+        <h2
+          class="mx-auto mt-12 mb-10 max-w-4xl text-center text-4xl font-medium leading-snug sm:text-5xl xl:mt-20 xl:text-6xl"
+        >
+          Brought you the
+          <span
+            class="bg-gradient-to-r from-gradient-100 to-gradient-200 bg-clip-text text-transparent"
+            >best sales </span
+          >tools ever
+        </h2>
+
+        <p class="mx-auto mb-10 max-w-2xl text-center text-neutral-500">
+          When we first started this, we noticed something pretty special - our members loved
+          sharing the service with their friends.
+        </p>
+
+        <div class="mb-16 flex flex-wrap items-center justify-center gap-3 text-center">
+          <a href="#" class="btn-primary">Download now</a>
+          <a href="#" class="btn-secondary">I'm new here</a>
+        </div>
+
+        <img
+          src="/assets/screen-1.png"
+          alt="Screenshot of our Seller e-commerce app"
+          class="mx-auto w-full max-w-6xl shadow-xl lg:shadow-2xl"
+        />
+      </section>
+
+      <!-------- Services Section -------->
+
+      <section id="services" class="wrapper mb-20 max-w-7xl">
+        <p
+          class="mb-6 bg-gradient-to-r from-gradient-100 to-gradient-200 bg-clip-text text-center font-bold text-transparent"
+        >
+          BEST TOOLS
+        </p>
+
+        <h2 class="mb-8 text-center text-3xl font-medium sm:text-4xl xl:text-5xl">
+          We offer you the best tools
+        </h2>
+
+        <p class="text- mb-16 text-center text-neutral-500">
+          Everything you need to know about why we are the best
+        </p>
+
+        <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
+          <article
+            class="rounded-3xl border border-neutral-300 p-8 shadow-2xl shadow-neutral-100 md:p-10"
+          >
+            <i
+              class="fa-solid fa-bolt mb-6 bg-gradient-to-r from-gradient-100 to-gradient-200 bg-clip-text text-5xl font-bold text-transparent md:mb-10 md:text-6xl"
+            ></i>
+            <h3 class="mb-2 text-2xl font-medium md:mb-4">Full controls</h3>
+            <p class="text-sm text-neutral-400">
+              All prices in USD. Payments accepted with Credit Cards and Paypal. VAT may apply.
+            </p>
+          </article>
+
+          <article
+            class="rounded-3xl border border-neutral-300 p-8 shadow-2xl shadow-neutral-200 md:p-10"
+          >
+            <i
+              class="fa-solid fa-shield-halved mb-6 bg-gradient-to-r from-gradient-100 to-gradient-200 bg-clip-text text-5xl font-bold text-transparent md:mb-10 md:text-6xl"
+            ></i>
+            <h3 class="mb-2 text-2xl font-medium md:mb-4">Security extra</h3>
+            <p class="text-sm text-neutral-400">
+              Secure and agency-verified payments using two-factor authentication.
+            </p>
+          </article>
+
+          <article
+            class="rounded-3xl border border-neutral-300 p-8 shadow-2xl shadow-neutral-100 md:p-10"
+          >
+            <i
+              class="fa-solid fa-certificate tex5-4xl mb-6 bg-gradient-to-r from-gradient-100 to-gradient-200 bg-clip-text font-bold text-transparent md:mb-10 md:text-6xl"
+            ></i>
+            <h3 class="mb-2 text-2xl font-medium md:mb-4">Free 12 months</h3>
+            <p class="text-sm text-neutral-400">
+              We give you free for your first 12 month, you can upgrade your plan anytime.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!---------- About Section --------->
+      <section
+        id="about"
+        class="relative mb-20 bg-gradient-to-r from-gradient-100 to-gradient-200 text-white"
+      >
+        <div class="wrapper max-w-7xl">
+          <div class="max-w-lg pt-16 lg:py-16">
+            <p class="mb-6 font-bold">WE ARE THE BEST</p>
+            <h2
+              class="mb-8 text-3xl font-medium leading-snug sm:text-4xl sm:leading-snug xl:text-5xl xl:leading-snug"
+            >
+              Why we are the most powerfull sales tools?
+            </h2>
+            <p class="mb-8 text-white opacity-90">
+              Measure what matters with Untitled's easy-to-use reports. You can filter, export, and
+              drilldown on the data in a couple of clicks.
+            </p>
+            <a href="#" class="btn-tertiary inline-flex items-center gap-4"
+              >Learn more <i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+        <div class="ml-auto h-full max-w-lg lg:absolute lg:bottom-0 lg:right-0 xl:max-w-xl">
+          <img src="/assets/screen-2.png" alt="" class="h-full w-full object-cover" />
+        </div>
+      </section>
+
+      <!---------- Tools Section --------->
+      <section class="wrapper mb-20"></section>
+
+      <!--------- Reviews Section -------->
+      <section class="wrapper mb-20"></section>
+
+      <!----------- FAQ Section ---------->
+      <section class="wrapper mb-20"></section>
+    </main>
+    <!------------------------------------>
+    <!-------------- FOOTER -------------->
+    <!------------------------------------>
+
+    <!------------------------------------>
+    <!------------- SCRIPTS -------------->
+    <!------------------------------------>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
 </html>
