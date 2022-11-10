@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx,vue,html}'],
   theme: {
     extend: {
       fontFamily: {
@@ -13,6 +13,9 @@ module.exports = {
           h100: '#33438A',
           h200: '#4F36A8',
         },
+      },
+      boxShadow: {
+        sides: '1px 1px 20px -8px rgba(0, 0, 0, 0.2)',
       },
       backgroundSize: {
         'size-200': '200% 200%',
