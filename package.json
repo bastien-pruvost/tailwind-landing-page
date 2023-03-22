@@ -1,7 +1,15 @@
 {
-  "name": "myvite",
+  "name": "tailwind-lading-page",
+  "version": "1.0.0",
   "private": true,
-  "version": "0.0.0",
+  "description": "A simple landing page made with Tailwind CSS",
+  "keywords": [],
+  "homepage": "https://github.com/bastien-pruvost/tailwind-landing-page#readme",
+  "license": "MIT",
+  "author": {
+    "name": "Bastien Pruvost",
+    "url": "https://github.com/bastien-pruvost"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite --host",
