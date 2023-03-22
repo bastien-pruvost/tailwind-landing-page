@@ -1,5 +1,3 @@
-# Tailwind CSS Landing Page
-
 <!-- prettier-ignore-start -->
 
 <!-- Rename all occurences with Cmd + D :
